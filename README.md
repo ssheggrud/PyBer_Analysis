@@ -1,13 +1,15 @@
 # PyBer_Analysis
 
-Overview of the analysis:
+## Overview of the analysis:
 
 We were tasked with creating a summary dataframe that will show the ride sharing data for Urban, Suburban, and Rural city types.
 The end result of our analysis will be a multi-line graph that shows the weekly fares by each city type.
 
 Using Pandas functions groupby, count, and sum, we were able to get the total number of drivers, rides, and fares aggregated by city type. This allowed us to then calculate the average fare per ride and driver. Using that information, we then created a new dataframe to reformat the columns in order to be able to piviot and resample the data, allowing us to create a multi-line graph. The graph shows the total fares, by week for each city type, between January and April of 2019.
 
-#A review of the data shows the following:
+## Results:
+
+A review of the data shows the following:
 
 - Rural cities had the lowest number of drivers, the lowest total fare amount, as well as the lowest averages for fare per ride and fare per driver.
 - Suburban cities had roughly 5 times the number of rides as Rural areas, but only 2.5 times fewer rides than Urban. They fall roughly in the middle for number of drivers when compared to Rural and Urban.
@@ -24,7 +26,7 @@ Using Pandas functions groupby, count, and sum, we were able to get the total nu
 
 <img width="634" alt="Total Fare by City Type" src="https://github.com/ssheggrud/PyBer_Analysis/blob/fdd44b3790bb751e9d54b2fa7bbcde322ecacb55/analysis/Fig8.png">
 
-Summary
+##Summary
 
 After examining the data, we are able to tell what the average fare tends to be based on the originating city type. We have a solid overview of the variations that happen week by week, and could project what to expect in the upcoming months, barring unforseen circumstances like what was experienced during 2020. 
 
