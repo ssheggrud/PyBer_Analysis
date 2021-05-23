@@ -26,7 +26,7 @@ A review of the data shows the following:
 
 <img width="634" alt="Total Fare by City Type" src="https://github.com/ssheggrud/PyBer_Analysis/blob/fdd44b3790bb751e9d54b2fa7bbcde322ecacb55/analysis/Fig8.png">
 
-##Summary
+## Summary
 
 After examining the data, we are able to tell what the average fare tends to be based on the originating city type. We have a solid overview of the variations that happen week by week, and could project what to expect in the upcoming months, barring unforseen circumstances like what was experienced during 2020. 
 
